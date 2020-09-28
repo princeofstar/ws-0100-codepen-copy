@@ -89,7 +89,7 @@ a {
   border-radius: 4px;
   padding: 8px 16px;
   text-align: center; }
-  .button .button:hover {
+  .button:hover {
     opacity: .4;
     cursor: pointer; }
 
@@ -130,7 +130,7 @@ a {
   width: 64px;
   border-radius: 6px;
   text-align: center; }
-  .card-icon .card-icon .fa {
+  .card-icon .fa {
     font-size: 48px;
     position: relative;
     top: 8px; }
@@ -150,7 +150,7 @@ a {
   border-radius: 4px;
   background: #2c303a;
   transition: .2s; }
-  .product-item-card .product-item-card:hover {
+  .product-item-card:hover {
     transform: scale(1.05);
     opacity: .4;
     cursor: pointer; }
@@ -171,7 +171,7 @@ a {
   border-radius: 4px;
   margin: auto;
   padding: 8px; }
-  .product-item-card-image .product-item-card-image img {
+  .product-item-card-image img {
     border-radius: 4px;
     object-fit: cover;
     width: 100%; }
@@ -180,7 +180,7 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 4px; }
-  .product-item-card-body-avator .product-item-card-body-avator img {
+  .product-item-card-body-avator img {
     border-radius: 4px;
     object-fit: cover;
     width: 100%; }
@@ -192,7 +192,7 @@ a {
 
 .product-item-card-body-title {
   margin-left: 1rem; }
-  .product-item-card-body-title .product-item-card-body-title p {
+  .product-item-card-body-title p {
     margin: 0; }
 
 .product-item-card-body-title-text {
@@ -220,7 +220,7 @@ a {
   left: 160px;
   bottom: 20px; }
   @media (max-width: 576px) {
-    .code-card-html .code-card-html {
+    .code-card-html {
       left: 120px; } }
 
 .code-card-scss {
@@ -228,7 +228,7 @@ a {
   left: 220px;
   bottom: 20px; }
   @media (max-width: 576px) {
-    .code-card-scss .code-card-scss {
+    .code-card-scss {
       left: 160px; } }
 
 .code-card-js {
@@ -236,19 +236,19 @@ a {
   left: 160px;
   bottom: 20px; }
   @media (max-width: 576px) {
-    .code-card-js .code-card-js {
+    .code-card-js {
       left: 120px; } }
 
 .code-card-header {
   padding: 4px 8px;
   justify-content: space-between; }
-  .code-card-header .code-card-header .fa:before {
+  .code-card-header .fa:before {
     color: #b7bbc8; }
 
 .code-card-body {
   padding: 8px;
   padding-top: 0; }
-  .code-card-body .code-card-body p {
+  .code-card-body p {
     margin: 0; }
 
 .code-card-title-text {
@@ -257,7 +257,7 @@ a {
 
 .features {
   justify-content: center; }
-  .features .features .card {
+  .features .card {
     height: 340px; }
 
 .features-card {
@@ -301,13 +301,13 @@ a {
   width: 50%;
   padding: 32px; }
   @media (max-width: 576px) {
-    .hero-body-description .hero-body-description {
+    .hero-body-description {
       width: 100%; } }
 
 .hero-body-image {
   width: 50%; }
   @media (max-width: 576px) {
-    .hero-body-image .hero-body-image {
+    .hero-body-image {
       width: 100%; } }
 
 .hero-body-image-card {
@@ -317,7 +317,7 @@ a {
   height: 410px;
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%); }
   @media (max-width: 576px) {
-    .hero-body-image-card .hero-body-image-card {
+    .hero-body-image-card {
       width: 100%; } }
 
 .hero-footer .button {
@@ -326,7 +326,7 @@ a {
 
 .header-buttons {
   padding: 8px; }
-  .header-buttons .header-buttons .button {
+  .header-buttons .button {
     margin-right: 8px;
     min-width: 100px; }
 
@@ -342,7 +342,7 @@ a {
   background: #252830;
   border-radius: 4px;
   width: 100%; }
-  .search-form .search-form i {
+  .search-form i {
     font-size: 20px; }
 
 .search-form-input {
@@ -356,7 +356,7 @@ a {
 .sidebar {
   background: #1F1F26; }
   @media (max-width: 576px) {
-    .sidebar .sidebar {
+    .sidebar {
       display: none; } }
 
 .sidebar-menu a {
